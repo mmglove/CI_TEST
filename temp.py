@@ -7,7 +7,7 @@ This module
 Authors: guomengmeng01(guomengmeng01@baidu.com)
 Date: 2020/6/12 14:45
 """
-import paddle
+import paddle.fluid
 import paddleslim
-print("paddle_version:", paddle.__version__)
+paddle.fluid.install_check.run_check()
 print("paddleslim_version:", paddleslim.__file__)
